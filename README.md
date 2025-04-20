@@ -5,7 +5,9 @@
 
 Install [Node.js](https://nodejs.org).
 
-Download or unzip the `neffa-room-schedules` directory.
+Clone or unzip the `neffa-room-schedules` directory. If cloning use the following command:
+
+`git clone https://github.com/mlresnick/neffa-room-schedules.git`
 
 `cd` into that directory.
 
