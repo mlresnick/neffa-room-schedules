@@ -1,0 +1,60 @@
+body { font-family: arial, sans-serif;}
+.hall:not(:first-of-type) {
+    break-before: page;
+}
+.hall { break-inside: avoid; }
+.hall > .name {
+     font-size: 24pt;
+     text-align: center;
+     width: 7in;
+}
+
+.day {
+    break-after: page;
+}
+.day > .name {
+    font-size: 18pt;
+    width: 7in;
+    margin: 2ex 2ex;
+    margin-left: 1in;
+    break-after: avoid;
+}
+.day .entry:nth-of-type(odd) {
+    background-color: silver;
+    width: 8in;
+}
+
+
+.entry { break-inside: avoid; }
+.start_time {
+    font-size: 16pt;
+    float: left;
+    width: 1in;
+ }
+.short {
+    font-size: 14pt;
+    font-weight: bold;
+    float: left;
+    width: 5.25in;
+    margin-bottom: 0.5ex;
+ }
+.rating {
+    font-size: 8pt;
+    float: left;
+    width: 0.75in;
+    padding-top: 1ex;
+ }
+.performers {
+    font-size: 12pt;
+    clear: left;
+    width: 5.5in;
+    margin-left: 1in;
+    margin-bottom: 1ex;
+ }
+ .verbose {
+    font-size: 10pt;
+    clear: left;
+    width: 5.5in;
+    margin-left: 1in;
+    margin-bottom: 2ex;
+}
